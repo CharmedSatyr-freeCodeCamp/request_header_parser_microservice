@@ -30,6 +30,9 @@
                 color: #c7254e;
                 background-color: #f9f2f4;
                 border-radius: 4px;
+            }
+
+            .cblock {
                 width: 75%;
             }
         </style>
@@ -42,7 +45,9 @@
             <h4>by <a href='https://charmedsatyr.com/' target='_blank'>CharmedSatyr</a></h4>
             <p>This Request Header Parser Microservice uses Node.js, Express.js, Mustache.js, and other libraries to gather and dynamically display information about visitors' browsing environments.</p>
             <p>You can see information about your connection below in JSON format. It is not logged.</p>
-            <code>{{result}}</code>
+            <div class='cblock'>
+                <code>{{result}}</code>
+            </div>
             <br>
             <p>For a standalone JSON object, click <a href='./json'>here</a>.</p>
             <h4>You can view this project's source files on <a href='https://github.com/charmedsatyr/request_header_parser_microservice' target='_blank'>GitHub</a>.</h4>
