@@ -1,6 +1,6 @@
 # **Request Header Parser Microservice**
 ### **"Request Header Parser Microservice"** is a project required for freeCodeCamp Back End Certification: [https://www.freecodecamp.com/challenges/request-header-parser-microservice](https://www.freecodecamp.com/challenges/request-header-parser-microservice)
-#### **Data Completed**: N/A
+#### **Data Completed**: April 4, 2017
 	
 >1. **Objective**: Build a full stack JavaScript app that is functionally similar to this: [https://cryptic-ridge-9197.herokuapp.com/api/whoami/](https://cryptic-ridge-9197.herokuapp.com/api/whoami/) and deploy it to Heroku.
 
