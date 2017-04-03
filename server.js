@@ -30,10 +30,10 @@ app.get([
     let stream = mu.compileAndRender('index.html', {result: JSON.stringify(header)});
 
     req.params.json
-        ? res.send(header)
+        ? res.json(header)
         : stream.pipe(res);
 
-})
+});
 
 app.listen(port, function() {
     console.log('Listening on port', port);
