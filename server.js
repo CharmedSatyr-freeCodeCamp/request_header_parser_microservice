@@ -20,7 +20,6 @@ app.get([
         version: req.useragent.version,
         ip: req.ip,
         language: req.headers["accept-language"],
-        host: req.headers.host,
         os: req.useragent.os,
         platform: req.useragent.platform,
         isDesktop: req.useragent.isDesktop,
