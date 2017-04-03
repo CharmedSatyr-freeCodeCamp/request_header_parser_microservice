@@ -14,6 +14,7 @@ app.get([
     mu.clearCache();
 
     const header = {
+        protocol: req.protocol,
         method: req.method,
         source: req.useragent.source,
         browser: req.useragent.browser,
@@ -23,8 +24,7 @@ app.get([
         os: req.useragent.os,
         platform: req.useragent.platform,
         isDesktop: req.useragent.isDesktop,
-        isMobile: req.useragent.isMobile,
-        secure: req.secure
+        isMobile: req.useragent.isMobile
     }
 
     let stream = mu.compileAndRender('index.html', {result: JSON.stringify(header)});
