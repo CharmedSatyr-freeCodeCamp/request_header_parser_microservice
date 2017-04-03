@@ -1,0 +1,29 @@
+{
+  "name": "request_header_parser_microservice",
+  "version": "1.0.0",
+  "description": "\"Request Header Parser Microservice\" is a project required for freeCodeCamp Back End Certification.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charmedsatyr/request_header_parser_microservice.git"
+  },
+  "keywords": [
+    "freeCodeCamp",
+    "node.js",
+    "express.js"
+  ],
+  "author": "CharmedSatyr",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/charmedsatyr/request_header_parser_microservice/issues"
+  },
+  "homepage": "https://github.com/charmedsatyr/request_header_parser_microservice#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-useragent": "^1.0.7",
+    "mu2": "^0.5.21"
+  }
+}
